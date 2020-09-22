@@ -1,0 +1,92 @@
+p{
+	color:#ff1a8c;
+	font-size: 30px;
+}
+
+.listitem {
+	color:#b366ff;
+	font-size:15px;
+}
+
+.paragraph {
+	color:#ff1a8c;
+	font-size:1.0em;
+}
+#background {
+	background-color:white;
+}
+#button {
+	width:75px;
+	height:25px;
+	color:#ff1a8c;
+	background-color:#ffcccc;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+#banner {
+	height:15px;
+	width:100%;
+	border:5px dotted #ff1a8c;
+	background-color:#ffcccc;
+	text-align:center;
+}
+#footer {
+	height:15px;
+	width:100%;
+	border:5px dotted #ff1a8c;
+	background-color:#ffcccc;
+	text-align:center;
+}
+#wrap-list {
+	width:20%;
+	border-radius:5px;
+	border:5px dashed purple;
+}
+.wrap-trivia {
+	height:200px;
+	width:450px;
+	border:5px double #66ff66;
+	padding:50px;
+}
+.wrap-text {
+	color:#ff1a8c;
+	font-size:1.0em;
+}
+.navitem {
+	list-style-type:none;
+	display:inline-table;
+	margin-right:10px;
+	padding:2px 5px;
+	font-size:1.25em;
+	font-color:#b366ff;
+}
+#navmenu {
+	text-align:center;
+	background-color:lavender;
+	color:purple;
+}
+.link {
+	color:green;
+}
+a:visited {
+	color:blue;
+}
+a:hover {
+	color:purple;
+}
+a:active {
+	color:green;
+}
+.rightside {
+	float:right;
+	width:48%;
+}
+.leftside {
+	width:48%;
+}
+.clearfloat {
+	clear:both;
+}
+.h1 {
+	color:#b366ff;
+}
