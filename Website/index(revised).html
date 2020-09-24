@@ -17,7 +17,6 @@
         selection=true;
       }
       }
-    }
     if(selection==true) {
       message=message+"<b><p style='color:green'>Way to go!</p></b>";
     }   else {
@@ -67,11 +66,13 @@
   	<h2> Music Trivia Question: </h2>
   	<p> <b>What composer was deaf?</b> </p>
     <form>
-      <input type="radio" name="trivia"> Johann Sebastian Bach
-      <input type="radio" name="trivia"> Ludwig van Beethoven 
-      <input type="radio" name="trivia"> Pyotr Ilyich Tchaikovsky 
-      <input type="radio" name="trivia"> Wolfgang Amadeus Mozart 
-      <input type="button" value="Submit" id="button">
+      <div id="response"> </div> 
+      <input type="radio" name="trivia" value="no"> Johann Sebastian Bach
+      <input type="radio" name="trivia" value="yes"> Ludwig van Beethoven 
+      <input type="radio" name="trivia" value="no"> Pyotr Ilyich Tchaikovsky 
+      <input type="radio" name="trivia" value="no"> Wolfgang Amadeus Mozart 
+      <input onclick="answer()"type="button" value="Submit" id="button">
+
     </div>
     </form>
   	<img src="https://thumbs.dreamstime.com/b/pastel-purple-lavender-repeat-pattern-design-great-springtime-modern-fabric-wallpaper-backgrounds-invitations-packaging-123779516.jpg" />
