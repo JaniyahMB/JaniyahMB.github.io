@@ -1,15 +1,15 @@
 p{
-	color:#ff1a8c;
+	color:#cc33ff;
 	font-size: 30px;
 }
 
 .listitem {
-	color:#b366ff;
+	color:#9900ff;
 	font-size:15px;
 }
 
 .paragraph {
-	color:#ff1a8c;
+	color:#cc33ff;
 	font-size:1.0em;
 }
 #background {
@@ -18,23 +18,23 @@ p{
 #button {
 	width:75px;
 	height:25px;
-	color:#ff1a8c;
-	background-color:#ffcccc;
+	color:white;
+	background-color:#9900ff;
 	border-radius:20px;
 	margin-bottom:10px;
 }
 #banner {
 	height:15px;
 	width:100%;
-	border:5px dotted #ff1a8c;
-	background-color:#ffcccc;
+	border:5px dotted #6600cc;
+	background-color:#cc00ff;
 	text-align:center;
 }
 #footer {
 	height:15px;
 	width:100%;
-	border:5px dotted #ff1a8c;
-	background-color:#ffcccc;
+	border:5px dotted #6600cc;
+	background-color:#cc00ff;
 	text-align:center;
 }
 #wrap-list {
@@ -45,12 +45,15 @@ p{
 .wrap-trivia {
 	height:200px;
 	width:450px;
-	border:5px double #66ff66;
+	border:5px double #cc33ff;
 	padding:50px;
 }
 .wrap-text {
-	color:#ff1a8c;
+	color:#cc33ff;
 	font-size:1.0em;
+}
+.h1 {
+	color:#cc33ff;
 }
 .navitem {
 	list-style-type:none;
@@ -58,7 +61,7 @@ p{
 	margin-right:10px;
 	padding:2px 5px;
 	font-size:1.25em;
-	font-color:#b366ff;
+	font-color:#9900ff;
 }
 #navmenu {
 	text-align:center;
@@ -88,5 +91,5 @@ a:active {
 	clear:both;
 }
 .h1 {
-	color:#b366ff;
+	color:#9900ff;
 }
