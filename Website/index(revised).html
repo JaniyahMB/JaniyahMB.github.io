@@ -7,6 +7,26 @@
        var text=confirm ("Open this link?");
        return text;
     }
+      function answer(){
+      var radio=
+    document.getElementsByName("trivia");
+    var selection=false;
+    var message="";
+    for( var i=0; < radio.length; i++){
+      if(radio[i].value=="yes" && radio[i].checked==true){
+        selection=true;
+      }
+      }
+    }
+    if(selection==true) {
+      message=message+"<b><p style='color:green'>Way to go!</p></b>";
+    }   else {
+      message=message+"<b><p style='color:green'>Way to go!</p></b>";}
+      else{
+        message=message+"<b><p> style='color:red>Try again my friend.</p>,/b>";
+      }
+      document.getElementById("response").innerHTML=message;
+      }
      </script>
     <style>
       p{ 
