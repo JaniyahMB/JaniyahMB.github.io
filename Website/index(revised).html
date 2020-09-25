@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  	<title> Janiyah's Website! </title>
+    <script>
+    function banner(){
+       var text=confirm ("Open this link?");
+       return text;
+    }
+   function answer(){
+    var radio = document.getElementsByName("trivia");
+    var selection = false;
+    var message ="";
+  for( var i = 0; i < radio.length; i++) {
+    if(radio[i].value == "yes" && radio[i].checked == true) {
+      selection = true;
+     } //end if statement
+    } //end for loop
+    if(selection == true) {
+      message = message + "<b><p style='color:green'>Way to go!</p</b>";
+    } else {
+      message = message + "<b><p style='color:red>Try again my friend.</p></b>";
+    }
+    document.getElementById("response").innerHTML = message;
+  } //end function answer
+     </script>
+    <style>
+      p{ 
+        color:#cc33ff;
+        font-size: 15px;
+      }
+      </style>
+  </head>
+  <body id="background">
+    <a onclick="return banner()" href="https://janiyahmb.github.io/Website/index(revised).html">
+<header id="banner">Janiyah's Website</header>
+    </a>
+    <p> Coming Soon!</p>
+    <nav>
+      <ul id="navemenu">
+    <li class="navitem"> <a href="index.html">Home </a></li>
+    <li class="navitem"> <a href="games.html">Games </a></li>
+    <li class="navitem"> <a href="images.html">Images</a></li>
+    </nav>
+<div class="righside">
+  <img src="https://thumbs.dreamstime.com/b/light-purple-lavender-repeat-pattern-design-light-purple-lavender-repeat-pattern-design-great-springtime-modern-fabric-123342771.jpg" />
+</div>
+<div class="leftside"> These are really pretty flowers!</div>
+<div class="clearfloat">
+    <h1 class="h1"> About Janiyah's Website: </h1>
+  	<p class="paragraph"><span class="wrap-text">My website's theme is about photography and beauty.I like taking pictures and I want my website to reflect my passion for capturing the beauty of earth. The earth is a beautiful place and we need people to capture that beauty,and post it for everyone to see.</span>
+  	</p>
+
+    <div class="wrap list">
+    <ul>
+    <li class="listitem">Earth!</li> 
+    <li class="listitem">Beauty!</li>
+    <li class="listitem">Photography!</li>
+  </ul>
+    </div>
+
+    <div class="wrap-trivia">
+  	<h2> Music Trivia Question: </h2>
+  	<p> <b>What composer was deaf?</b> </p>
+    <form>
+      <div id="response"> </div> 
+      <input type="radio" name="trivia" value="no"> Johann Sebastian Bach<br>
+      <input type="radio" name="trivia" value="yes"> Ludwig van Beethoven<br> 
+      <input type="radio" name="trivia" value="no"> Pyotr Ilyich Tchaikovsky<br>
+      <input type="radio" name="trivia" value="no"> Wolfgang Amadeus Mozart<br> 
+      <input onclick="answer()" type="button" id="submit" value="Submit">
+    </form>
+  	<img src="https://thumbs.dreamstime.com/b/pastel-purple-lavender-repeat-pattern-design-great-springtime-modern-fabric-wallpaper-backgrounds-invitations-packaging-123779516.jpg" />
+    <footer id="footer">Janiyah's Website</footer>
+  </body>
+ </html>
